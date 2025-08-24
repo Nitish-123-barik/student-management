@@ -9,7 +9,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchCount = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/students/count");
+        const res = await axios.get("https://student-management-1-k4zj.onrender.com/api/students/count");
         setTotalStudents(res.data.total);
       } catch (error) {
         console.error("Error fetching student count:", error);
