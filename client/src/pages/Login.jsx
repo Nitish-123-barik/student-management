@@ -53,7 +53,10 @@ export default function Login() {
         </button>
         {msg && <p className="text-red-500 text-sm">{msg}</p>}
         <p className="text-xs text-gray-500">
-          💡 First time? Register a teacher via API.
+          Admin email: nitish@gmail.com 
+        </p>
+        <p className="text-xs text-gray-500">
+          Admin password: Nitish1710 
         </p>
       </form>
     </div>
